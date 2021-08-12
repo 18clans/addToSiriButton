@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0091639D5DA25B7D1B522BCE /* libPods-addToSiriButton-addToSiriButtonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF95322C15274693C9E635 /* libPods-addToSiriButton-addToSiriButtonTests.a */; };
 		00E356F31AD99517003FC87E /* addToSiriButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* addToSiriButtonTests.m */; };
+		0EF737DC3D74B535BD9BE731 /* libPods-addToSiriButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04607D225AEE06C6E8237EC2 /* libPods-addToSiriButton.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		311E380D29B860341C3086F8 /* Pods_addToSiriButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9A31008F980CD762436866 /* Pods_addToSiriButton.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		82A1E0D162960B8628E380A2 /* Pods_addToSiriButton_addToSiriButtonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3E42138B142EFE8B50CD5A /* Pods_addToSiriButton_addToSiriButtonTests.framework */; };
+		B0A567F626C5B06100EB92F5 /* bridgingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A567F526C5B06100EB92F5 /* bridgingHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		00E356EE1AD99517003FC87E /* addToSiriButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addToSiriButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* addToSiriButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addToSiriButtonTests.m; sourceTree = "<group>"; };
+		04607D225AEE06C6E8237EC2 /* libPods-addToSiriButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-addToSiriButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* addToSiriButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = addToSiriButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = addToSiriButton/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = addToSiriButton/AppDelegate.m; sourceTree = "<group>"; };
@@ -37,12 +39,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = addToSiriButton/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = addToSiriButton/main.m; sourceTree = "<group>"; };
 		1B6E3263B730FA65F8554E2A /* Pods-addToSiriButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-addToSiriButton.debug.xcconfig"; path = "Target Support Files/Pods-addToSiriButton/Pods-addToSiriButton.debug.xcconfig"; sourceTree = "<group>"; };
-		4C9A31008F980CD762436866 /* Pods_addToSiriButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_addToSiriButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F3E42138B142EFE8B50CD5A /* Pods_addToSiriButton_addToSiriButtonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_addToSiriButton_addToSiriButtonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F9E2A0CDABB02DAC3ABC4E /* Pods-addToSiriButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-addToSiriButton.release.xcconfig"; path = "Target Support Files/Pods-addToSiriButton/Pods-addToSiriButton.release.xcconfig"; sourceTree = "<group>"; };
+		7ABF95322C15274693C9E635 /* libPods-addToSiriButton-addToSiriButtonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-addToSiriButton-addToSiriButtonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = addToSiriButton/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4953D9CE371D05F6D8E568B /* Pods-addToSiriButton-addToSiriButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-addToSiriButton-addToSiriButtonTests.release.xcconfig"; path = "Target Support Files/Pods-addToSiriButton-addToSiriButtonTests/Pods-addToSiriButton-addToSiriButtonTests.release.xcconfig"; sourceTree = "<group>"; };
 		B0A567B926C56AF700EB92F5 /* addToSiriButton.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = addToSiriButton.entitlements; path = addToSiriButton/addToSiriButton.entitlements; sourceTree = "<group>"; };
+		B0A567F426C5B06100EB92F5 /* addToSiriButton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "addToSiriButton-Bridging-Header.h"; sourceTree = "<group>"; };
+		B0A567F526C5B06100EB92F5 /* bridgingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bridgingHeader.swift; sourceTree = "<group>"; };
 		E43CDF5076329F36EAEE13BC /* Pods-addToSiriButton-addToSiriButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-addToSiriButton-addToSiriButtonTests.debug.xcconfig"; path = "Target Support Files/Pods-addToSiriButton-addToSiriButtonTests/Pods-addToSiriButton-addToSiriButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -52,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82A1E0D162960B8628E380A2 /* Pods_addToSiriButton_addToSiriButtonTests.framework in Frameworks */,
+				0091639D5DA25B7D1B522BCE /* libPods-addToSiriButton-addToSiriButtonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				311E380D29B860341C3086F8 /* Pods_addToSiriButton.framework in Frameworks */,
+				0EF737DC3D74B535BD9BE731 /* libPods-addToSiriButton.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +97,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				B0A567F526C5B06100EB92F5 /* bridgingHeader.swift */,
+				B0A567F426C5B06100EB92F5 /* addToSiriButton-Bridging-Header.h */,
 			);
 			name = addToSiriButton;
 			sourceTree = "<group>";
@@ -113,8 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				4C9A31008F980CD762436866 /* Pods_addToSiriButton.framework */,
-				5F3E42138B142EFE8B50CD5A /* Pods_addToSiriButton_addToSiriButtonTests.framework */,
+				04607D225AEE06C6E8237EC2 /* libPods-addToSiriButton.a */,
+				7ABF95322C15274693C9E635 /* libPods-addToSiriButton-addToSiriButtonTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,7 +166,7 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				7417FE4EBB2BEF21AC7160D2 /* [CP] Embed Pods Frameworks */,
+				6C8811EFBECAF75E2CD8E568 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,7 +188,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				BCD6CF056815F311E9153E1B /* [CP] Embed Pods Frameworks */,
+				F088B715B60E34B61078194B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +212,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -286,38 +291,38 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7417FE4EBB2BEF21AC7160D2 /* [CP] Embed Pods Frameworks */ = {
+		6C8811EFBECAF75E2CD8E568 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton-addToSiriButtonTests/Pods-addToSiriButton-addToSiriButtonTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton-addToSiriButtonTests/Pods-addToSiriButton-addToSiriButtonTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton-addToSiriButtonTests/Pods-addToSiriButton-addToSiriButtonTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton-addToSiriButtonTests/Pods-addToSiriButton-addToSiriButtonTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton-addToSiriButtonTests/Pods-addToSiriButton-addToSiriButtonTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton-addToSiriButtonTests/Pods-addToSiriButton-addToSiriButtonTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BCD6CF056815F311E9153E1B /* [CP] Embed Pods Frameworks */ = {
+		F088B715B60E34B61078194B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton/Pods-addToSiriButton-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton/Pods-addToSiriButton-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton/Pods-addToSiriButton-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton/Pods-addToSiriButton-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton/Pods-addToSiriButton-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-addToSiriButton/Pods-addToSiriButton-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F21E98A48E53AFFEE89D928E /* [CP] Check Pods Manifest.lock */ = {
@@ -378,6 +383,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B0A567F626C5B06100EB92F5 /* bridgingHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E43CDF5076329F36EAEE13BC /* Pods-addToSiriButton-addToSiriButtonTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -423,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4953D9CE371D05F6D8E568B /* Pods-addToSiriButton-addToSiriButtonTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = addToSiriButtonTests/Info.plist;
@@ -464,6 +472,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = addToSiriButton;
+				SWIFT_OBJC_BRIDGING_HEADER = "addToSiriButton-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -490,6 +499,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = addToSiriButton;
+				SWIFT_OBJC_BRIDGING_HEADER = "addToSiriButton-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -628,7 +638,7 @@
 				00E356F71AD99517003FC87E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "addToSiriButton" */ = {
 			isa = XCConfigurationList;
@@ -637,7 +647,7 @@
 				13B07F951A680F5B00A75B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "addToSiriButton" */ = {
 			isa = XCConfigurationList;
@@ -646,7 +656,7 @@
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
